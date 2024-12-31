@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#app {
+  min-height: 100vh;
+  background-color: #172806;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#timer {
+  height: 50vh;
+  width: 40vh;
+  background-color: #4eb543;
+  margin-right: 10px;
+  border-radius: 5%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#timersContainer {
+  height: 70vh;
+  width: 40vh;
+  background-color: #4eb543;
+  border-radius: 5%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  color: #172806;
+}
+
+#timers {
+  list-style: none;
+  cursor: pointer;
+}
+
+#add-timer {
+  background-color: #ffffff;
+  color: #172806;
+  border-radius: 10px;
+}
+
+#time-input {
+  background-color: #ffffff;
+  color: #172806;
+}
